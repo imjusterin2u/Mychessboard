@@ -413,7 +413,15 @@ if(typeof module!=='undefined')module.exports={Chess:Chess,analyzeRoot:analyzeRo
 // ================= FIREBASE (for two-device play) =================
 // Paste your Firebase web config here (Firebase console → Project settings → Your apps → Web app).
 // Needs a Realtime Database. Leave as null to hide nothing — the Two devices button will explain setup.
-var FIREBASE_CONFIG = null;
+var FIREBASE_CONFIG = {
+  apiKey: "AIzaSyD8q2UpbzgDJFOfYg0eGWC8dplXXjnBV6I",
+  authDomain: "digitalchessgame.firebaseapp.com",
+  databaseURL: "https://digitalchessgame-default-rtdb.firebaseio.com",
+  projectId: "digitalchessgame",
+  storageBucket: "digitalchessgame.firebasestorage.app",
+  messagingSenderId: "552115149997",
+  appId: "1:552115149997:web:db1c34bdac37c7d874ba24"
+};
 /* Example:
 var FIREBASE_CONFIG = {
   apiKey: "…",
